@@ -2,6 +2,7 @@
 
 #sudo apt-add-repository
 - ppa:inkscape.dev/stable
+- ppa:atareao/atareao
 
 #sudo apt update
 
@@ -13,6 +14,7 @@
 - net-tools
 - curl
 - npm
+- touchpad-indicator (load on startup and disable touchpad when mouse plugged in)
 
 #install code
 https://code.visualstudio.com/docs/setup/linux
