@@ -51,6 +51,8 @@ https://code.visualstudio.com/docs/setup/linux
 - bracket pair colorizer
 - javascript snippets
 - intellisense for css class name
+- Code spell checker
+- TODO Highlight
 
 #Copy over user settings
 {
