@@ -31,6 +31,11 @@ https://code.visualstudio.com/docs/setup/linux
 #gem install
 - rubocop
 - rsense
+- rcodetools
+- ruby-lint
+- reek
+- fasterer
+- debride
 
 #Install code extensions
 - ruby
