@@ -62,8 +62,35 @@ https://code.visualstudio.com/docs/setup/linux
 #Copy over user settings
 {
     "[ruby]": {
-        "editor.tabSize": 2
-    },
+        "editor.tabSize": 2,
+        // Basic settings: turn linter(s) on
+        "ruby.lint": {
+            "reek": true,
+            "rubocop": true,
+            "ruby": true, //Runs ruby -wc
+            "fasterer": true,
+            "debride": true,
+            "ruby-lint": true
+        },
+
+        // Time (ms) to wait after keypress before running enabled linters. Ensures
+        // linters are only run when typing has finished and not for every keypress
+        "ruby.lintDebounceTime": 500,
+
+        //advanced: set command line options for some linters:
+        "ruby.lint": {
+            "ruby": {
+                "unicode": true //Runs ruby -wc -Ku
+            },
+            "rubocop": {
+                "only": ["SpaceInsideBlockBraces", "LeadingCommentSpace"],
+                "lint": true,
+                "rails": true
+            },
+            "reek": true
+        }
+        },
+
     "explorer.confirmDelete": false,
     "git.enableSmartCommit": true,
     "workbench.colorTheme": "One Dark Pro",
@@ -84,6 +111,43 @@ https://code.visualstudio.com/docs/setup/linux
     "editor.cursorWidth": 5,
     "editor.cursorBlinking": "solid",
     "editor.renderWhitespace": "all",
+    "git.confirmSync": false,
+    "cSpell.userWords": [
+        "rcodetools",
+        "rsense",
+        "rubocop",
+        "touchpad"
+    ],
+    "cSpell.language": "en",
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "go",
+        "handlebars",
+        "html",
+        "jade",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "latex",
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "pub",
+        "python",
+        "restructuredtext",
+        "ruby",
+        "rust",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yml"
+    ],
 }
 
 #Manually download and install
