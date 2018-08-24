@@ -37,6 +37,7 @@ https://code.visualstudio.com/docs/setup/linux
 - reek
 - fasterer
 - debride
+- solargraph
 
 #Install code extensions
 - ruby
