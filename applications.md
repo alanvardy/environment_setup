@@ -15,6 +15,7 @@
 - curl
 - npm
 - touchpad-indicator (load on startup and disable touchpad when mouse plugged in)
+- okular
 
 #install code
 https://code.visualstudio.com/docs/setup/linux
