@@ -3,7 +3,6 @@
 #sudo apt-add-repository
 - ppa:inkscape.dev/stable
 - ppa:atareao/atareao
-ppa:nathan-renniewaldock/flux
 
 #sudo apt update
 
@@ -17,7 +16,6 @@ ppa:nathan-renniewaldock/flux
 - npm
 - touchpad-indicator (load on startup and disable touchpad when mouse plugged in)
 - okular
-- fluxgui
 
 #install code
 https://code.visualstudio.com/docs/setup/linux
@@ -162,3 +160,6 @@ https://code.visualstudio.com/docs/setup/linux
 - Download and put in ~/.ssh/
 - chmod 400 id_rsa
 - ssh-add id_rsa
+
+#Configurations
+- Turn on Gnome night light
