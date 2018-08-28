@@ -15,7 +15,8 @@
 - curl
 - npm
 - touchpad-indicator (load on startup and disable touchpad when mouse plugged in)
-- okular
+- okular (set as default)
+- vlc (set as default)
 
 #install code
 https://code.visualstudio.com/docs/setup/linux
