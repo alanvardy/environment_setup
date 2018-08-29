@@ -39,7 +39,7 @@ https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a
 
 ## curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
 
-## install ruby
+## install ruby and rbenv
 
 - https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application?ref=lnav
 
