@@ -1,13 +1,17 @@
-#Install latest Ubuntu LTS
+# Linux Environment Setup
 
-#sudo apt-add-repository
+## Install latest Ubuntu LTS
+
+## sudo apt-add-repository
+
 - ppa:inkscape.dev/stable
 - ppa:atareao/atareao
 - ppa:gnome-terminator
 
-#sudo apt update
+## sudo apt update
 
-#sudo apt install
+## sudo apt install
+
 - chromium-browser
 - spotify
 - inkscape
@@ -20,22 +24,27 @@
 - vlc (set as default)
 - terminator
 
-#install code
+## install code
+
 https://code.visualstudio.com/docs/setup/linux
 
-#install oh my zsh
+## install oh my zsh
+
 https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a
 
-#npm install -g
+## npm install -g
+
 - jasmine
 - jshint
 
-#curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
+## curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
 
-#install ruby
+## install ruby
+
 - https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application?ref=lnav
 
-#gem install
+## gem install
+
 - rubocop
 - rsense
 - rcodetools
@@ -45,7 +54,7 @@ https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a
 - debride
 - solargraph
 
-#Install code extensions
+## Install code extensions
 - ruby
 - python
 - vscode-icons
@@ -66,8 +75,9 @@ https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a
 - intellisense for css class name
 - Code spell checker
 - TODO Highlight
+- markdownlint
 
-#Copy over user settings
+## Copy over user settings
 {
     "[ruby]": {
         "editor.tabSize": 2,
@@ -162,14 +172,17 @@ https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a
     },
     "terminal.integrated.shell.linux": "/bin/zsh",
 
-#Manually download and install
+## Manually download and install
+
 - dukto
 - private internet access https://www.privateinternetaccess.com/helpdesk/guides/desktop/linux/ubuntu-openvpn-setup
 
-#Get SSH key and install it
+## Get SSH key and install it
+
 - Download and put in ~/.ssh/
 - chmod 400 id_rsa
 - ssh-add id_rsa
 
-#Configurations
+## Configurations
+
 - Turn on Gnome night light
