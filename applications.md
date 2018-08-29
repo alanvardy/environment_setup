@@ -26,11 +26,11 @@
 
 ## install code
 
-https://code.visualstudio.com/docs/setup/linux
+[VS Code Install Instructions](https://code.visualstudio.com/docs/setup/linux)
 
 ## install oh my zsh
 
-https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a
+[Oh My ZSH Install Instructions](https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a)
 
 ## npm install -g
 
@@ -41,7 +41,7 @@ https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a
 
 ## install ruby and rbenv
 
-- https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application?ref=lnav
+[Odin Project Ruby Install](https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application?ref=lnav)
 
 ## gem install
 
@@ -53,8 +53,6 @@ https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a
 - fasterer
 - debride
 - solargraph
-
-## Install code extensions
 - ruby
 - python
 - vscode-icons
@@ -78,6 +76,7 @@ https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a
 - markdownlint
 
 ## Copy over user settings
+
 {
     "[ruby]": {
         "editor.tabSize": 2,
@@ -175,7 +174,7 @@ https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a
 ## Manually download and install
 
 - dukto
-- private internet access https://www.privateinternetaccess.com/helpdesk/guides/desktop/linux/ubuntu-openvpn-setup
+- [private internet access](https://www.privateinternetaccess.com/helpdesk/guides/desktop/linux/ubuntu-openvpn-setup)
 
 ## Get SSH key and install it
 
