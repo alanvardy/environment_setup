@@ -3,6 +3,7 @@
 #sudo apt-add-repository
 - ppa:inkscape.dev/stable
 - ppa:atareao/atareao
+- ppa:gnome-terminator
 
 #sudo apt update
 
@@ -17,9 +18,13 @@
 - touchpad-indicator (load on startup and disable touchpad when mouse plugged in)
 - okular (set as default)
 - vlc (set as default)
+- terminator
 
 #install code
 https://code.visualstudio.com/docs/setup/linux
+
+#install oh my zsh
+https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a
 
 #npm install -g
 - jasmine
@@ -117,6 +122,7 @@ https://code.visualstudio.com/docs/setup/linux
     "git.confirmSync": false,
     "cSpell.userWords": [
         "rcodetools",
+        "readline",
         "rsense",
         "rubocop",
         "touchpad"
@@ -151,7 +157,10 @@ https://code.visualstudio.com/docs/setup/linux
         "typescriptreact",
         "yml"
     ],
-}
+    "files.associations": {
+        "*.erb": "html"
+    },
+    "terminal.integrated.shell.linux": "/bin/zsh",
 
 #Manually download and install
 - dukto
