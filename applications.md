@@ -113,9 +113,9 @@
     "workbench.colorTheme": "One Dark Pro",
     "workbench.iconTheme": "vscode-icons",
     "materialTheme.fixIconsRunning": false,
-    "editor.fontFamily": "Inconsolata, 'Courier New', monospace",
+    "editor.fontFamily": "Inconsolata",
     "terminal.integrated.fontSize": 16,
-    "terminal.integrated.fontFamily": "Ubuntu mono",
+    "terminal.integrated.fontFamily": "Inconsolata",
     "liveServer.settings.donotShowInfoMsg": true,
     "git.autofetch": true,
     "editor.fontSize": 17,
@@ -170,6 +170,7 @@
         "*.erb": "html"
     },
     "terminal.integrated.shell.linux": "/bin/zsh",
+}
 
 ## Manually download and install
 
