@@ -5,16 +5,19 @@
 - [ ]Map out customer journey through website
 - [ ]Long page is better than multiple pages. Scrolling good, clicking bad.
 - [ ]Marketing Layout
-- [ ]![Marketing layout](img/service-page-2.jpg)
+
+![Marketing layout](img/service-page-2.jpg)
 
 ## HTML
 
 - [ ]Short powerful sections of content
 - [ ]Icons and pictures illustating concepts
-- [ ]Set viewport <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+- [ ]Set viewport `<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">`
 - [ ]Imbed fonts for title and body
 - [ ]Use a visual hierarchy
-- [ ]![Laws of visual hierarchy](img/laws-visual-hierarchy.jpg)
+
+![Laws of visual hierarchy](img/laws-visual-hierarchy.jpg)
+
 - [ ]Use a descriptive, keyphrase-focused headline high on the homepage
 - [ ]Show one thing at a time, low complexity
 - [ ]Stick to standard layouts
@@ -35,7 +38,8 @@
 - [ ]Use you and your rather than we and our (customer focused)
 - [ ]Check for dead links [Dead link checker](https://www.brokenlinkcheck.com/broken-links.php#status)
 
-- [ ]## CSS
+## CSS
+
 - [ ]Set color variables
 - [ ]Set custom colors
 - [ ]Set fonts for title and body (sans serif). No more than 3.
