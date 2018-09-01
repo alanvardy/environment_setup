@@ -7,6 +7,10 @@
 
 ![Marketing layout](img/service-page-2.jpg)
 
+- Use a visual hierarchy
+
+![Laws of visual hierarchy](img/laws-visual-hierarchy.jpg)
+
 - Map out customer journey through website
 - Stick to standard layouts
   - Horizontal navigation in the header
@@ -15,28 +19,24 @@
 
 ## HTML
 
+- Use a descriptive, key phrase-focused headline high on the homepage
 - Short powerful sections of content
-- Icons and pictures illustating concepts
-- Set viewport `<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">`
-- Imbed fonts for title and body
-- Use a visual hierarchy
-
-![Laws of visual hierarchy](img/laws-visual-hierarchy.jpg)
-
-- Use a descriptive, keyphrase-focused headline high on the homepage
-    - Write meaningful subheadings, not generic
-- Answer visitor questions
+  - No paragraphs longer than 3-4 lines
+  - Avoid jargon, complex words.
+  - Use you and your rather than we and our (customer focused)
+  - Mention scarcity, trigger “loss aversion”
+  - Lists have important items at start and end
+  - Write meaningful subheadings, not generic
+  - Answer visitor questions
+  - Add evidence and social proof
+- Icons and pictures illustrating concepts
+- Imbed fonts for title and body (3 max)
+  - Use pictures of people with faces, get them to look at something important
 - Mobile responsive
-- Use pictures of people with faces, get them to look at something important
-- No paragraphs longer than 3-4 lines
-- Avoid jargon, complex words.
-- Lists have important items at start and end
-- Add evidence and social proof
-- Mention scarcity, trigger “loss aversion”
+  - Set viewport `<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">`
 - Footer has important links
 - Call to action button on page for next step
 - Look at SEO
-- Use you and your rather than we and our (customer focused)
 - Check for dead links [Dead link checker](https://www.brokenlinkcheck.com/broken-links.php#status)
 
 ## CSS
