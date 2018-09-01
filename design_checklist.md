@@ -18,25 +18,25 @@
 
 ![Laws of visual hierarchy](img/laws-visual-hierarchy.jpg)
 
-- []Use a descriptive, keyphrase-focused headline high on the homepage
-- []Show one thing at a time, low complexity
-- []Stick to standard layouts
-- []Horizontal navigation in the header
-- []Answer visitor questions
-- []Logo top left
-- []Mobile responsive
-- []Use pictures of people with faces, get them to look at something important
-- []Write meaningful subheadings, not generic
-- []No paragraphs longer than 3-4 lines
-- []Avoid jargon, complex words.
-- []Lists have important items at start and end
-- []Add evidence and social proof
-- []Mention scarcity, trigger “loss aversion”
-- []Footer has important links
-- []Call to action button on page for next step
-- []Look at SEO
-- []Use you and your rather than we and our (customer focused)
-- []Check for dead links [Dead link checker](https://www.brokenlinkcheck.com/broken-links.php#status)
+- [ ]Use a descriptive, keyphrase-focused headline high on the homepage
+- [ ]Show one thing at a time, low complexity
+- [ ]Stick to standard layouts
+- [ ]Horizontal navigation in the header
+- [ ]Answer visitor questions
+- [ ]Logo top left
+- [ ]Mobile responsive
+- [ ]Use pictures of people with faces, get them to look at something important
+- [ ]Write meaningful subheadings, not generic
+- [ ]No paragraphs longer than 3-4 lines
+- [ ]Avoid jargon, complex words.
+- [ ]Lists have important items at start and end
+- [ ]Add evidence and social proof
+- [ ]Mention scarcity, trigger “loss aversion”
+- [ ]Footer has important links
+- [ ]Call to action button on page for next step
+- [ ]Look at SEO
+- [ ]Use you and your rather than we and our (customer focused)
+- [ ]Check for dead links [Dead link checker](https://www.brokenlinkcheck.com/broken-links.php#status)
 
 ## CSS
 
