@@ -19,6 +19,7 @@
 
 ## HTML
 
+- Do a CSS reset `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">`
 - Use a descriptive, key phrase-focused headline high on the homepage
 - Short powerful sections of content
   - No paragraphs longer than 3-4 lines
