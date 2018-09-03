@@ -1,0 +1,19 @@
+{
+  "name": "environment_setup",
+  "version": "1.0.0",
+  "description": "Personal resources for setting up my operating system, editor etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanvardy/environment_setup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanvardy/environment_setup/issues"
+  },
+  "homepage": "https://github.com/alanvardy/environment_setup#readme"
+}
