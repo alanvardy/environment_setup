@@ -23,6 +23,7 @@
 - okular (set as default)
 - vlc (set as default)
 - terminator
+- xchm
 
 ## install code
 
@@ -32,10 +33,14 @@
 
 [Oh My ZSH Install Instructions](https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a)
 
-## npm install -g
+## npm install
 
-- jasmine
-- jshint
+- -g jasmine
+
+## sudo npm install
+
+- -g eslint
+- eslint --init
 
 ## curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
 
@@ -43,52 +48,62 @@
 
 [Odin Project Ruby Install](https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application?ref=lnav)
 
+## To be checked
+
+- html snippets
+- javascript snippets
+
 ## gem install
 
-- rubocop
-- rsense
+- fastri
 - rcodetools
-- ruby-lint
 - reek
+- solargraph
+- git
+- reek
+- rubocop
 - fasterer
 - debride
+- ruby-lint
+- ruby-debug-ide
+- debase
+- rsense
+
+## Add VS Code Extensions
+
 - solargraph
-- ruby
+- live server
+- better comments
+- beautify
+- Code spell checker
+- reek
+- color highlight
+- rubocop
+- rainbow CSV
 - python
 - vscode-icons
 - one dark pro theme
-- better comments
+- ruby
 - prettier
-- color highlight
-- rainbow CSV
-- custom css and js loader
-- beautify
-- git
-- ruby-linter
-- jshint
-- live server
-- html snippets
-- bracket pair colorizer
-- javascript snippets
-- intellisense for css class name
-- Code spell checker
-- TODO Highlight
 - markdownlint
+- gitlens
+- bracket pair colorizer
+- indent rainbow
 
 ## Copy over user settings
 
 {
-    "[ruby]": {
-        "editor.tabSize": 2,
-        // Basic settings: turn linter(s) on
-        "ruby.lint": {
-            "reek": true,
-            "rubocop": true,
-            "ruby": true, //Runs ruby -wc
-            "fasterer": true,
-            "debride": true,
-            "ruby-lint": true
-        },
+"[ruby]": {
+"editor.tabSize": 2,
+// Basic settings: turn linter(s) on
+"ruby.lint": {
+"reek": true,
+"rubocop": true,
+"ruby": true, //Runs ruby -wc
+"fasterer": true,
+"debride": true,
+"ruby-lint": true
+},
 
         // Time (ms) to wait after keypress before running enabled linters. Ensures
         // linters are only run when typing has finished and not for every keypress
@@ -129,6 +144,7 @@
     "editor.cursorBlinking": "solid",
     "editor.renderWhitespace": "all",
     "git.confirmSync": false,
+    "editor.formatOnSave": true,
     "cSpell.userWords": [
         "rcodetools",
         "readline",
@@ -170,6 +186,10 @@
         "*.erb": "html"
     },
     "terminal.integrated.shell.linux": "/bin/zsh",
+    "[markdown]": {
+        "editor.tabSize": 2,
+    },
+
 }
 
 ## Manually download and install
