@@ -71,24 +71,25 @@
 
 ## Add VS Code Extensions
 
-- solargraph
-- live server
-- better comments
-- beautify
-- Code spell checker
-- reek
-- color highlight
-- rubocop
-- rainbow CSV
-- python
-- vscode-icons
-- one dark pro theme
-- ruby
-- prettier
-- markdownlint
-- gitlens
-- bracket pair colorizer
-- indent rainbow
+- Settings Sync (should do the rest)
+- Solargraph
+- Live Server
+- Better Comments
+- Beautify
+- Code Spell Checker
+- Reek
+- Color Highlight
+- Rubocop
+- Rainbow CSV
+- Python
+- Vscode-icons
+- One Dark Pro Theme
+- Ruby
+- Prettier
+- Markdownlint
+- Gitlens
+- Bracket Pair Colorizer
+- Indent Rainbow
 
 ## Copy over user settings
 
