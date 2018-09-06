@@ -188,6 +188,17 @@
     "[markdown]": {
         "editor.tabSize": 2,
     },
+    "workbench.sideBar.location": "left",
+    "sync.gist": "d437298a643172027750781275d349c9",
+    "sync.quietSync": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.forceDownload": false,
+    "ruby.codeCompletion": "rcodetools",
+    "ruby.format": "rubocop",
+    "ruby.intellisense": "rubyLocate",
 
 }
 
