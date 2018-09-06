@@ -58,7 +58,6 @@
 - fastri
 - rcodetools
 - reek
-- solargraph
 - git
 - reek
 - rubocop
@@ -72,7 +71,6 @@
 ## Add VS Code Extensions
 
 - Settings Sync (should do the rest)
-- Solargraph
 - Live Server
 - Better Comments
 - Beautify
