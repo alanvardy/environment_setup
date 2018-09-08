@@ -206,6 +206,16 @@
 
 }
 
+## Add to VS Code Keybindings
+
+[{
+"key": "ctrl+alt+b",
+"command": "HookyQR.beautifyFile"
+} {
+"key": "ctrl+alt+p",
+"command": "git.push"
+}]
+
 ## Manually download and install
 
 - dukto
