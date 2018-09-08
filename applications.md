@@ -9,20 +9,19 @@
 
 ## sudo apt update
 
-## sudo apt install
+sudo apt update
 
-- chromium-browser
-- spotify
-- inkscape
-- deluge
-- net-tools
-- curl
-- npm
-- touchpad-indicator (load on startup and disable touchpad when mouse plugged in)
-- okular (set as default)
-- vlc (set as default)
-- guake
-- xchm
+## Install
+
+sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm touchpad-indicator okular vlc guake xchm
+
+## sudo apt remove
+
+sudo apt remove aisleriot kdeconnect gnome-mahjongg gnome-mines libreoffice-core libreoffice-common remmina rhythmbox simple-scan shotwell gnome-sudoku gnome-todo totem thunderbird
+
+## sudo apt autoremove
+
+sudo apt autoremove
 
 ## install code
 
@@ -31,6 +30,12 @@
 ## Add to Startup Applications Preferences
 
 - guake
+- touchpad-indicator (disable touchpad when mouse plugged in)
+
+## Set as default application
+
+- Okular
+- VLC
 
 ## install oh my zsh
 
