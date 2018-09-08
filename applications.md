@@ -29,6 +29,10 @@
 
 [VS Code Install Instructions](https://code.visualstudio.com/docs/setup/linux)
 
+## Add to Startup Applications Preferences
+
+- guake
+
 ## install oh my zsh
 
 [Oh My ZSH Install Instructions](https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a)
