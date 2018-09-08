@@ -6,7 +6,6 @@
 
 - ppa:inkscape.dev/stable
 - ppa:atareao/atareao
-- ppa:gnome-terminator
 
 ## sudo apt update
 
