@@ -4,24 +4,23 @@
 
 ## sudo apt-add-repository
 
-- ppa:inkscape.dev/stable
-- ppa:atareao/atareao
+`for f in ppa:inkscape.dev/stable ppa:atareao/atareao ; do sudo add-apt-repository $f; done`
 
 ## sudo apt update
 
-sudo apt update
+`sudo apt update`
 
 ## Install
 
-sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm touchpad-indicator okular vlc guake xchm
+`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm touchpad-indicator okular vlc guake xchm`
 
 ## sudo apt remove
 
-sudo apt remove aisleriot kdeconnect gnome-mahjongg gnome-mines libreoffice-core libreoffice-common remmina rhythmbox simple-scan shotwell gnome-sudoku gnome-todo totem thunderbird
+`sudo apt remove aisleriot kdeconnect gnome-mahjongg gnome-mines libreoffice-core libreoffice-common remmina rhythmbox simple-scan shotwell gnome-sudoku gnome-todo totem thunderbird`
 
 ## sudo apt autoremove
 
-sudo apt autoremove
+`sudo apt autoremove`
 
 ## install code
 
@@ -63,18 +62,7 @@ sudo apt autoremove
 
 ## gem install
 
-- fastri
-- rcodetools
-- reek
-- git
-- reek
-- rubocop
-- fasterer
-- debride
-- ruby-lint
-- ruby-debug-ide
-- debase
-- rsense
+`gem install fastri rcodetools reek git reek rubocop fasterer debride ruby-lint ruby-debug-ide debase rsense`
 
 ## Add VS Code Extensions
 
@@ -228,8 +216,8 @@ sudo apt autoremove
 ## Get SSH key and install it
 
 - Download and put in ~/.ssh/
-- chmod 400 id_rsa
-- ssh-add id_rsa
+- `chmod 400 id_rsa`
+- `ssh-add id_rsa`
 
 ## Configurations
 
