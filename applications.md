@@ -12,7 +12,7 @@
 
 ## Install
 
-`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm touchpad-indicator okular vlc guake xchm`
+`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm touchpad-indicator okular vlc guake xchm gnome-shell-pomodoro`
 
 ## sudo apt remove
 
@@ -30,6 +30,7 @@
 
 - guake
 - touchpad-indicator (disable touchpad when mouse plugged in)
+- gnome-shell-pomodoro
 
 ## Set as default application
 
