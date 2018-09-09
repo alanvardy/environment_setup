@@ -86,6 +86,10 @@
 - Bracket Pair Colorizer
 - Indent Rainbow
 
+- rspec-snippets
+- HTML Snippets
+- Javascript Snippets
+
 ## Copy over user settings
 
 {
