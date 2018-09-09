@@ -30,7 +30,7 @@
 
 - guake
 - touchpad-indicator (disable touchpad when mouse plugged in)
-- gnome-shell-pomodoro
+- gnome-pomodoro
 
 ## Set as default application
 
