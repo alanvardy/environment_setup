@@ -92,6 +92,7 @@
 
 ## Copy over user settings
 
+```JSON
 {
 "[ruby]": {
 "editor.tabSize": 2,
@@ -212,6 +213,7 @@
 "key": "ctrl+alt+p",
 "command": "git.push"
 }]
+```
 
 ## Manually download and install
 
@@ -228,6 +230,22 @@
 
 - Turn on Gnome night light
 
-## fonts
+## Fonts
 
 put inconsolata into ~/.font folder
+
+## Shell Script
+
+Put the following in a shell script:
+
+```bash
+#!/bin/bash
+
+firefox -url https://mail.google.com/mail/?shva=1# https://www.icloud.com/#reminders https://devdocs.io/ https://github.com/alanvardy https://www.theodinproject.com/dashboard https://twitter.com/ https://www.instapaper.com/u &
+code &
+gnome-terminal &
+
+exit 0
+```
+
+and run `chmod 777 file`
