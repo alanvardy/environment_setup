@@ -26,6 +26,10 @@
 
 [VS Code Install Instructions](https://code.visualstudio.com/docs/setup/linux)
 
+## install gitkraken
+
+[Use website instructions](https://www.gitkraken.com/download)
+
 ## Add to Startup Applications Preferences
 
 - guake
