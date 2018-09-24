@@ -53,6 +53,7 @@
 
 - -g eslint
 - eslint --init
+- -g git-removed-branches (can run this with `git removed-branches --prune`)
 
 ## curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
 
