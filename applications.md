@@ -265,6 +265,7 @@ exit 0
 
 git checkout &
 git pull origin master &
+git push origin master &
 git push heroku master &
 git removed-branches --prune &
 exit 0
