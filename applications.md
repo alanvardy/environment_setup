@@ -243,9 +243,9 @@
 
 put inconsolata into ~/.font folder
 
-## Shell Script
+## Shell Scripts in ~/
 
-Put the following in a shell script:
+~/devapps.sh
 
 ```bash
 #!/bin/bash
@@ -257,4 +257,26 @@ gnome-terminal &
 exit 0
 ```
 
-and run `chmod 777 file`
+~/deploy.sh
+
+```bash
+#!/bin/bash
+
+
+git checkout &
+git pull origin master &
+git push heroku master &
+git removed-branches --prune &
+exit 0
+```
+
+and run `chmod 777 file` on both
+
+## Add to ~/.zshrc
+
+```bash
+alias deploy="~/deploy.sh"
+alias devapps="~/devapps.sh"
+```
+
+You can now open apps with the command `devapps` and execute the git process with `deploy`
