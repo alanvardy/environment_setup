@@ -2,31 +2,37 @@
 
 ## Install latest Ubuntu LTS
 
-## sudo apt-add-repository
+[Ubuntu Website](https://www.ubuntu.com/download/desktop)
+
+## Add repositories
 
 `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ; do sudo add-apt-repository $f; done`
 
-## sudo apt update
+## Update repositories
 
 `sudo apt update`
 
-## Install
+## Install apps
 
 `sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm touchpad-indicator okular vlc guake xchm gnome-shell-pomodoro`
 
-## sudo apt remove
+## Remove unwanted apps
 
 `sudo apt remove aisleriot kdeconnect gnome-mahjongg gnome-mines libreoffice-core libreoffice-common remmina rhythmbox simple-scan shotwell gnome-sudoku gnome-todo totem thunderbird`
 
-## sudo apt autoremove
+## Autoremove unused dependencies
 
 `sudo apt autoremove`
+
+## Check for updates
+
+`sudo apt upgrade`
 
 ## install code
 
 [VS Code Install Instructions](https://code.visualstudio.com/docs/setup/linux)
 
-## install gitkraken
+## install GitKraken
 
 [Use website instructions](https://www.gitkraken.com/download)
 
@@ -45,19 +51,17 @@
 
 [Oh My ZSH Install Instructions](https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a)
 
-## npm install
+## NPM Install
 
-- -g jasmine
+- `sudo npm install -g jasmine eslint git-removed-branches`
+- `eslint --init`
+- (can run this with `git removed-branches --prune`)
 
-## sudo npm install
+## Install random dependencies
 
-- -g eslint
-- eslint --init
-- -g git-removed-branches (can run this with `git removed-branches --prune`)
+`curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev`
 
-## curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
-
-## install ruby and rbenv
+## Install Ruby and rbenv
 
 [Odin Project Ruby Install](https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application?ref=lnav)
 
@@ -66,7 +70,7 @@
 - html snippets
 - javascript snippets
 
-## gem install
+## Install Ruby Gems
 
 `gem install fastri rcodetools reek git reek rubocop fasterer debride ruby-lint ruby-debug-ide debase rsense`
 
@@ -215,8 +219,8 @@
 "key": "ctrl+alt+b",
 "command": "HookyQR.beautifyFile"
 } {
-"key": "ctrl+alt+p",
-"command": "git.push"
+"key": "ctrl+alt+s",
+"command": "git.sync"
 }]
 ```
 
