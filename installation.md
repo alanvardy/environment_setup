@@ -6,12 +6,13 @@
 
 ## Add repositories
 
-`for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewaldock/flux ; do sudo add-apt-repository $f; done`
-`curl -sL https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -`
-`sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'`
-`curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg`
-`sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/`
-`sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'`
+Atom: `curl -sL https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -`
+Atom: `sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'`
+VS Code:`curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg`
+VS Code:`sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/`
+VS Code: `sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'`
+Dukto: `sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/colomboem/xUbuntu_16.04/ /' > /etc/apt/sources.list.d/home:colomboem.list"`
+Other: `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewaldock/flux ; do sudo add-apt-repository $f; done`
 
 ## Update repositories
 
@@ -19,7 +20,7 @@
 
 ## Install apps
 
-`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm okular vlc xchm gnome-shell-pomodoro deluge atom apt-transport-https code fluxgui`
+`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm okular vlc xchm gnome-shell-pomodoro deluge atom apt-transport-https code fluxgui dukto`
 
 ## Install Laptop Apps
 

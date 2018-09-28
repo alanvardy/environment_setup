@@ -1,18 +1,18 @@
-User Settings
+settings.json
 
 ```JSON
 {
-"[ruby]": {
-"editor.tabSize": 2,
-// Basic settings: turn linter(s) on
-"ruby.lint": {
-"reek": true,
-"rubocop": true,
-"ruby": true, //Runs ruby -wc
-"fasterer": true,
-"debride": true,
-"ruby-lint": true
-},
+    "[ruby]": {
+        "editor.tabSize": 2,
+        // Basic settings: turn linter(s) on
+        "ruby.lint": {
+            "reek": true,
+            "rubocop": true,
+            "ruby": true, //Runs ruby -wc
+            "fasterer": true,
+            "debride": true,
+            "ruby-lint": true
+        },
 
         // Time (ms) to wait after keypress before running enabled linters. Ensures
         // linters are only run when typing has finished and not for every keypress
@@ -109,18 +109,9 @@ User Settings
     "ruby.codeCompletion": "rcodetools",
     "ruby.format": "rubocop",
     "ruby.intellisense": "rubyLocate",
-
+    "ruby.useLanguageServer": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
 }
-```
-
-Keybindings
-
-```JSON
-[{
-"key": "ctrl+alt+b",
-"command": "HookyQR.beautifyFile"
-} {
-"key": "ctrl+alt+s",
-"command": "git.sync"
-}]
 ```
