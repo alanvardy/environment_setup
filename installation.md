@@ -110,7 +110,7 @@
 
 put inconsolata into ~/.font folder
 
-## install oh my zsh
+## Install Oh My Zsh
 
 [Oh My ZSH Install Instructions](https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a)
 
