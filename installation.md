@@ -42,7 +42,6 @@ Other: `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewa
 
 - [GitKraken](https://www.gitkraken.com/download)
 - [Slack](https://slack.com/downloads/linux)
-- dukto
 - [private internet access](https://www.privateinternetaccess.com/helpdesk/guides/desktop/linux/ubuntu-openvpn-setup)
 
 ## Add to Startup Applications Preferences
