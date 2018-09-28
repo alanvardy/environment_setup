@@ -9,6 +9,9 @@
 `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ; do sudo add-apt-repository $f; done`
 `curl -sL https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -`
 `sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'`
+`curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg`
+`sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/`
+`sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'`
 
 ## Update repositories
 
@@ -16,7 +19,7 @@
 
 ## Install apps
 
-`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm okular vlc xchm gnome-shell-pomodoro deluge atom`
+`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm okular vlc xchm gnome-shell-pomodoro deluge atom apt-transport-https code`
 
 ## Install Laptop Apps
 
@@ -36,7 +39,6 @@
 
 ## Manual Installations
 
-[VS Code](https://code.visualstudio.com/docs/setup/linux)
 [GitKraken](https://www.gitkraken.com/download)
 [Slack](https://slack.com/downloads/linux)
 
