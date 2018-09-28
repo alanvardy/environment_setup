@@ -96,6 +96,7 @@ Other: `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewa
 - rspec-snippets
 - HTML Snippets
 - Javascript Snippets
+- Live Share
 
 ## VS Code Settings
 
