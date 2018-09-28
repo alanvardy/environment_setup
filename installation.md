@@ -112,3 +112,13 @@ put [inconsolata](installation/Inconsolata.otf) into ~/.font folder
 ## Install Oh My Zsh
 
 [Oh My ZSH Install Instructions](installation/ohmyzsh.md)
+
+## Install Atom Packages
+
+- minimap
+- linter-ruby
+- autocomplete-ruby
+- ruby-test
+- ruby-block
+- platformio-ide-terminal
+- teletype
