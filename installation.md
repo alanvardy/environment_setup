@@ -112,29 +112,4 @@ put [inconsolata](installation/Inconsolata.otf) into ~/.font folder
 
 ## Install Oh My Zsh
 
-[Oh My ZSH Install Instructions](https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a)
-
-## Shell Scripts in ~/
-
-~/devapps.sh
-
-```bash
-#!/bin/bash
-
-firefox -url https://mail.google.com/mail/?shva=1# https://www.icloud.com/#reminders https://devdocs.io/ https://github.com/alanvardy https://www.theodinproject.com/dashboard https://twitter.com/ https://www.instapaper.com/u &
-code &
-gnome-terminal &
-
-exit 0
-```
-
-and run `chmod 777 file` on both
-
-## Add to ~/.zshrc
-
-```bash
-alias deploy="~/deploy.sh"
-alias devapps="~/devapps.sh"
-```
-
-You can now open apps with the command `devapps` and execute the git process with `deploy`
+[Oh My ZSH Install Instructions](installation/zsh.md)
