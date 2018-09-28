@@ -43,6 +43,7 @@ Other: `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewa
 - [GitKraken](https://www.gitkraken.com/download)
 - [Slack](https://slack.com/downloads/linux)
 - [private internet access](https://www.privateinternetaccess.com/helpdesk/guides/desktop/linux/ubuntu-openvpn-setup)
+- Teleconsole `curl https://www.teleconsole.com/get.sh | sh`
 
 ## Add to Startup Applications Preferences
 
