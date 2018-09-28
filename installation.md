@@ -7,6 +7,8 @@
 ## Add repositories
 
 `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ; do sudo add-apt-repository $f; done`
+`curl -sL https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -`
+`sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'`
 
 ## Update repositories
 
@@ -14,7 +16,7 @@
 
 ## Install apps
 
-`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm okular vlc xchm gnome-shell-pomodoro deluge`
+`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm okular vlc xchm gnome-shell-pomodoro deluge atom`
 
 ## Install Laptop Apps
 
