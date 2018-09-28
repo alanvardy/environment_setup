@@ -112,4 +112,4 @@ put [inconsolata](installation/Inconsolata.otf) into ~/.font folder
 
 ## Install Oh My Zsh
 
-[Oh My ZSH Install Instructions](installation/zsh.md)
+[Oh My ZSH Install Instructions](installation/ohmyzsh.md)
