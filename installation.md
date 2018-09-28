@@ -108,7 +108,7 @@
 
 ## Fonts
 
-put inconsolata into ~/.font folder
+put [inconsolata](installation/Inconsolata.otf) into ~/.font folder
 
 ## Install Oh My Zsh
 
@@ -125,20 +125,6 @@ firefox -url https://mail.google.com/mail/?shva=1# https://www.icloud.com/#remin
 code &
 gnome-terminal &
 
-exit 0
-```
-
-~/deploy.sh
-
-```bash
-#!/bin/bash
-
-
-git checkout &
-git pull origin master &
-git push origin master &
-git push heroku master &
-git removed-branches --prune &
 exit 0
 ```
 
