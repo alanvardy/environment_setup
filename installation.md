@@ -14,7 +14,7 @@
 
 ## Install apps
 
-`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm touchpad-indicator okular vlc guake xchm gnome-shell-pomodoro`
+`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm touchpad-indicator okular vlc guake xchm gnome-shell-pomodoro deluge`
 
 ## Remove unwanted apps
 
@@ -28,13 +28,11 @@
 
 `sudo apt upgrade`
 
-## install code
+## Manual Installations
 
-[VS Code Install Instructions](https://code.visualstudio.com/docs/setup/linux)
-
-## install GitKraken
-
-[Use website instructions](https://www.gitkraken.com/download)
+[VS Code](https://code.visualstudio.com/docs/setup/linux)
+[GitKraken](https://www.gitkraken.com/download)
+[Slack](https://slack.com/downloads/linux)
 
 ## Add to Startup Applications Preferences
 
