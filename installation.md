@@ -14,7 +14,11 @@
 
 ## Install apps
 
-`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm touchpad-indicator okular vlc guake xchm gnome-shell-pomodoro deluge`
+`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm okular vlc xchm gnome-shell-pomodoro deluge`
+
+## Install Laptop Apps
+
+`sudo apt install guake touchpad-indicator`
 
 ## Remove unwanted apps
 
