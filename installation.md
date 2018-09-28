@@ -39,8 +39,10 @@
 
 ## Manual Installations
 
-[GitKraken](https://www.gitkraken.com/download)
-[Slack](https://slack.com/downloads/linux)
+- [GitKraken](https://www.gitkraken.com/download)
+- [Slack](https://slack.com/downloads/linux)
+- dukto
+- [private internet access](https://www.privateinternetaccess.com/helpdesk/guides/desktop/linux/ubuntu-openvpn-setup)
 
 ## Add to Startup Applications Preferences
 
@@ -96,11 +98,6 @@
 ## VS Code Settings
 
 [Config Files](installation/vscode.md)
-
-## Manually download and install
-
-- dukto
-- [private internet access](https://www.privateinternetaccess.com/helpdesk/guides/desktop/linux/ubuntu-openvpn-setup)
 
 ## Get SSH key and install it
 
