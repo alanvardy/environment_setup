@@ -101,7 +101,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source $HOME/.zshenv
-
 function gitall() {
     git add .
     if [ "$1" != "" ]
@@ -115,4 +114,5 @@ function gitall() {
 
 alias ber="bundle exec rspec"
 alias deploy="git checkout master; git pull origin master; git push origin master; git push heroku master; git removed-branches --prune; exit"
+alias devapps="firefox -url https://mail.google.com/mail/?shva=1# https://www.icloud.com/#reminders https://devdocs.io/ https://github.com/alanvardy https://www.theodinproject.com/dashboard https://twitter.com/ https://www.instapaper.com/u; code; gnome-terminal; exit"
 ```
