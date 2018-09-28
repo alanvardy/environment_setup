@@ -6,7 +6,7 @@
 
 ## Add repositories
 
-`for f in ppa:inkscape.dev/stable ppa:atareao/atareao ; do sudo add-apt-repository $f; done`
+`for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewaldock/flux ; do sudo add-apt-repository $f; done`
 `curl -sL https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -`
 `sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'`
 `curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg`
@@ -19,7 +19,7 @@
 
 ## Install apps
 
-`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm okular vlc xchm gnome-shell-pomodoro deluge atom apt-transport-https code`
+`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm okular vlc xchm gnome-shell-pomodoro deluge atom apt-transport-https code fluxgui`
 
 ## Install Laptop Apps
 
@@ -107,10 +107,6 @@
 - Download and put in ~/.ssh/
 - `chmod 400 id_rsa`
 - `ssh-add id_rsa`
-
-## Configurations
-
-- Turn on Gnome night light
 
 ## Fonts
 
