@@ -76,6 +76,7 @@ Other: `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewa
 ## Add VS Code Extensions
 
 - Settings Sync (should do the rest)
+  - Gist is `d437298a643172027750781275d349c9`
 - Live Server
 - Better Comments
 - Beautify
