@@ -40,7 +40,6 @@ Other: `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewa
 
 ## Manual Installations
 
-- [GitKraken](https://www.gitkraken.com/download)
 - [Slack](https://slack.com/downloads/linux)
 - [private internet access](https://www.privateinternetaccess.com/helpdesk/guides/desktop/linux/ubuntu-openvpn-setup)
 - [Discord](https://discordapp.com/download)
