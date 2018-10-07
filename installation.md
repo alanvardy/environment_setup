@@ -111,7 +111,7 @@ Other: `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewa
 
 ## Fonts
 
-put [inconsolata](installation/Inconsolata.otf) into ~/.font folder
+put [inconsolata](installation/Inconsolata.otf) into ~/.fonts folder
 
 ## Install Oh My Zsh
 
