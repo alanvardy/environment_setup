@@ -103,12 +103,6 @@ Other: `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewa
 
 [Config Files](installation/vscode.md)
 
-## Get SSH key and install it
-
-- Download and put in ~/.ssh/
-- `chmod 400 id_rsa`
-- `ssh-add id_rsa`
-
 ## Fonts
 
 put [inconsolata](installation/Inconsolata.otf) into ~/.fonts folder
