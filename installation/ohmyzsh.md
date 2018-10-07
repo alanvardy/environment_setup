@@ -59,3 +59,12 @@ cd ~/.solarized
 - Choose **option 1** to download seebi' dircolors-solarized
 
 Copy over [zshrc](installation/zshrc.md)
+
+##Enter into Terminal:
+
+```bash
+$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshenv
+$ echo 'eval "$(rbenv init -)"' >> ~/.zshenv
+$ echo 'source $HOME/.zshenv' >> ~/.zshrc
+$ exec $SHELL
+```
