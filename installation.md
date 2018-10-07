@@ -6,8 +6,6 @@
 
 ## Add repositories
 
-Atom: `curl -sL https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -`
-Atom: `sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'`
 VS Code:`curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg`
 VS Code:`sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/`
 VS Code: `sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'`
@@ -20,7 +18,7 @@ Other: `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewa
 
 ## Install apps
 
-`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm okular vlc xchm gnome-shell-pomodoro deluge atom apt-transport-https code fluxgui dukto`
+`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm okular vlc xchm gnome-shell-pomodoro deluge apt-transport-https code fluxgui dukto`
 
 ## Install Laptop Apps
 
@@ -116,13 +114,3 @@ put [inconsolata](installation/Inconsolata.otf) into ~/.font folder
 ## Install Oh My Zsh
 
 [Oh My ZSH Install Instructions](installation/ohmyzsh.md)
-
-## Install Atom Packages
-
-- minimap
-- linter-ruby
-- autocomplete-ruby
-- ruby-test
-- ruby-block
-- platformio-ide-terminal
-- teletype
