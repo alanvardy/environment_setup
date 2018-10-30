@@ -19,7 +19,12 @@ Other: `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewa
 
 ## Install apps
 
-`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm okular vlc xchm git-cola gnome-shell-pomodoro deluge apt-transport-https code fluxgui dukto spotify-client curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev libpq-dev variety variety-slideshow terminator sqlitebrowser gnome-tweak-tool`
+`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm okular vlc xchm git-cola gnome-shell-pomodoro deluge apt-transport-https code fluxgui dukto spotify-client curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev libpq-dev variety variety-slideshow terminator libcurl4-gnutls-dev sqlitebrowser gnome-tweak-tool`
+
+## Check for updates
+
+`sudo apt upgrade`
+
 
 `sudo snap install mailspring gitkraken postman spotify discord slack teleconsole`
 `sudo snap install vscode --classic`
