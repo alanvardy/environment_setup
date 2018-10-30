@@ -37,11 +37,6 @@ Other: `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewa
 
 - [private internet access](https://www.privateinternetaccess.com/helpdesk/guides/desktop/linux/ubuntu-openvpn-setup)
 
-## Add to Startup Applications Preferences
-
-- touchpad-indicator (disable touchpad when mouse plugged in)
-- gnome-pomodoro
-
 ## Set as default application
 
 - Okular
@@ -101,3 +96,37 @@ put [inconsolata](installation/Inconsolata.otf) into ~/.fonts folder
 ## Install Oh My Zsh
 
 [Oh My ZSH Install Instructions](installation/ohmyzsh.md)
+
+## Settings Menu
+
+Dock:
+
+- Icon Size : 36
+  Notifications:
+- Notification popups: off
+
+## Tweaks
+
+- Desktop:
+
+  - Show Icons: off
+
+- Keyboard and mouse (Mouse click emulation):
+
+  - Area
+
+- Power: (Suspend when laptop lid is closed)
+
+  - Off
+
+- Startup Applications:
+
+  - Slack
+  - Variety
+  - f.lux
+  - Pomodoro
+  - Mailspring
+
+- Workspaces:
+
+  - Workspaces span displays
