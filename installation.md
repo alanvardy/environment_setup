@@ -21,8 +21,12 @@ Other: `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewa
 
 `sudo apt install chromium-browser firefox inkscape deluge net-tools curl npm okular vlc xchm git-cola gnome-shell-pomodoro deluge apt-transport-https code fluxgui dukto curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev libpq-dev variety variety-slideshow terminator libcurl4-gnutls-dev sqlitebrowser gnome-tweak-tool`
 
-`sudo snap install mailspring gitkraken postman spotify discord slack teleconsole`
+`sudo snap install mailspring gitkraken postman spotify discord teleconsole`
+
 `sudo snap install vscode --classic`
+
+`sudo snap install slack --classic`
+
 `sudo snap install heroku --classic`
 
 ## Install Laptop Apps
