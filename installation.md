@@ -6,28 +6,33 @@
 
 ## Add repositories
 
-VS Code:`curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg`
-VS Code:`sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/`
-VS Code: `sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'`
 Dukto: `sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/colomboem/xUbuntu_16.04/ /' > /etc/apt/sources.list.d/home:colomboem.list"`
-Spotify: `sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90`
-Spotify: `echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list`
-Variety: `sudo add-apt-repository ppa:peterlevi/ppa`
-Other: `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewaldock/flux ; do sudo add-apt-repository $f; done`
+Other: `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewaldock/flux ppa:linuxgndu/sqlitebrowser ppa:gnome-terminator ppa:peterlevi/ppa; do sudo add-apt-repository $f; done`
 
 ## Update repositories
 
 `sudo apt update`
 
+## Check for updates
+
+`sudo apt upgrade`
+
 ## Install apps
 
-`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm okular vlc xchm git-cola gnome-shell-pomodoro deluge apt-transport-https code fluxgui dukto spotify-client curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev libpq-dev variety variety-slideshow libcurl4-gnutls-dev`
+`sudo apt install chromium-browser firefox spotify inkscape deluge net-tools curl npm okular vlc xchm git-cola gnome-shell-pomodoro deluge apt-transport-https code fluxgui dukto spotify-client curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev libpq-dev variety variety-slideshow terminator libcurl4-gnutls-dev sqlitebrowser gnome-tweak-tool`
 
-`sudo snap install mailspring`
+## Check for updates
+
+`sudo apt upgrade`
+
+
+`sudo snap install mailspring gitkraken postman spotify discord slack teleconsole`
+`sudo snap install vscode --classic`
+`sudo snap install heroku --classic`
 
 ## Install Laptop Apps
 
-`sudo apt install guake touchpad-indicator`
+`sudo apt install touchpad-indicator`
 
 ## Remove unwanted apps
 
@@ -37,20 +42,12 @@ Other: `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewa
 
 `sudo apt autoremove`
 
-## Check for updates
-
-`sudo apt upgrade`
-
 ## Manual Installations
 
-- [Slack](https://slack.com/downloads/linux)
 - [private internet access](https://www.privateinternetaccess.com/helpdesk/guides/desktop/linux/ubuntu-openvpn-setup)
-- [Discord](https://discordapp.com/download)
-- Teleconsole `curl https://www.teleconsole.com/get.sh | sh`
 
 ## Add to Startup Applications Preferences
 
-- guake
 - touchpad-indicator (disable touchpad when mouse plugged in)
 - gnome-pomodoro
 
@@ -73,7 +70,7 @@ Other: `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewa
 
 ## Install Ruby Gems
 
-`gem install fastri rcodetools reek git reek rubocop fasterer debride ruby-lint ruby-debug-ide debase rsense`
+`gem install fastri rcodetools reek git reek rubocop fasterer debride ruby-lint ruby-debug-ide debase rsense rails`
 
 ## Add VS Code Extensions
 
@@ -100,6 +97,7 @@ Other: `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewa
 - HTML Snippets
 - Javascript Snippets
 - Live Share
+- Simple Ruby Erb
 
 ## VS Code Settings
 
