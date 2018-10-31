@@ -4,63 +4,12 @@
 
 [Ubuntu Website](https://www.ubuntu.com/download/desktop)
 
-## Add repositories
-
-Dukto: `sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/colomboem/xUbuntu_16.04/ /' > /etc/apt/sources.list.d/home:colomboem.list"`
-Other: `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewaldock/flux ppa:linuxgndu/sqlitebrowser ppa:gnome-terminator ppa:peterlevi/ppa; do sudo add-apt-repository $f; done`
-
-## Update repositories
-
-`sudo apt update`
-
-## Update apps
-
-`sudo apt upgrade`
-
 ## Install apps
 
-`sudo apt install chromium-browser firefox inkscape deluge net-tools curl npm okular vlc xchm git-cola gnome-shell-pomodoro deluge apt-transport-https code fluxgui dukto curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev libpq-dev variety variety-slideshow terminator libcurl4-gnutls-dev sqlitebrowser gnome-tweak-tool`
-
-`sudo snap install mailspring gitkraken postman spotify discord teleconsole`
-
-`sudo snap install vscode --classic`
-
-`sudo snap install slack --classic`
-
-`sudo snap install heroku --classic`
-
-## Install Laptop Apps
-
-`sudo apt install touchpad-indicator`
-
-## Remove unwanted apps
-
-`sudo apt remove aisleriot kdeconnect gnome-mahjongg gnome-mines libreoffice-core libreoffice-common remmina rhythmbox simple-scan shotwell gnome-sudoku gnome-todo totem thunderbird`
-
-## Manual Installations
-
-- [private internet access](https://www.privateinternetaccess.com/helpdesk/guides/desktop/linux/ubuntu-openvpn-setup)
-
-## Set as default application
-
-- Okular
-- VLC
-
-## NPM Install
-
-- `sudo npm install -g jasmine eslint git-removed-branches`
-
-## Install random dependencies
-
-`curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev`
-
-## Install Ruby and rbenv
-
-[Odin Project Ruby Install](https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application?ref=lnav)
-
-## Install Ruby Gems
-
-`gem install fastri rcodetools reek git reek rubocop fasterer debride ruby-lint ruby-debug-ide debase rsense rails`
+chmod +x install_dev_apps_1_of_2.sh
+chmod +x install_dev_apps_1_of_2.sh
+./install_dev_apps_1_of_2.sh
+./install_dev_apps_1_of_2.sh
 
 ## Add VS Code Extensions
 
@@ -92,10 +41,6 @@ Other: `for f in ppa:inkscape.dev/stable ppa:atareao/atareao ppa:nathan-renniewa
 ## VS Code Settings
 
 [Config Files](installation/vscode.md)
-
-## Fonts
-
-put [inconsolata](installation/Inconsolata.otf) into ~/.fonts folder
 
 ## Install Oh My Zsh
 

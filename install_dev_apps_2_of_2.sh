@@ -1,4 +1,6 @@
 #!/bin/bash
+# chmod +x <fileName>
+
 echo_message "FINISH INSTALLING RBENV"
 mkdir -p "$(rbenv root)"/plugins
 git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
@@ -21,3 +23,24 @@ gem install ruby-debug-ide
 gem install debase
 gem install rsense
 gem install rails
+
+echo_message "INSTALL FONTS"
+cp ./installation/Inconsolata.otf ~/.fonts/Inconsolata.otf
+wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
+wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
+mkdir ~/.fonts/
+mv PowerlineSymbols.otf ~/.fonts/
+mkdir -p .config/fontconfig/conf.d
+mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
+
+echo_message "CLEAR FONTS CACHE"
+fc-cache -vf ~/.fonts/
+
+echo_message "INSTALL OH MY ZSH CHOOSE OPTION 1 TWICE"
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+git clone git://github.com/sigurdga/gnome-terminal-colors-solarized.git
+~/.solarized/install.sh
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshenv
+echo 'eval "$(rbenv init -)"' >> ~/.zshenv
+echo 'source $HOME/.zshenv' >> ~/.zshrc
+exec $SHELL
