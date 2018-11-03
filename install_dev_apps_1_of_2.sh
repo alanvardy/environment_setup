@@ -3,7 +3,7 @@
 
 echo_message "ADDING REPOSITORIES"
 sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/colomboem/xUbuntu_16.04/ /' > /etc/apt/sources.list.d/home:colomboem.list"
-for f in ppa:atareao/atareao ppa:nathan-renniewaldock/flux ppa:linuxgndu/sqlitebrowser ppa:gnome-terminator ppa:peterlevi/ppa; do sudo add-apt-repository $f; done
+for f in ppa:atareao/atareao ppa:nathan-renniewaldock/flux ppa:linuxgndu/sqlitebrowser ppa:obsproject/obs-studio ppa:gnome-terminator ppa:peterlevi/ppa; do sudo add-apt-repository $f; done
 
 echo_message "UPDATING AND UPGRADING"
 sudo apt update
@@ -34,6 +34,8 @@ sudo apt install libsqlite3-dev
 sudo apt install libpq-dev
 sudo apt install variety
 sudo apt install variety-slideshow
+sudo apt install ffmpeg
+sudo apt install obs-studio
 sudo apt install terminator
 sudo apt install libcurl4-gnutls-dev
 sudo apt install sqlitebrowser
