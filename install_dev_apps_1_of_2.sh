@@ -30,7 +30,7 @@ sudo apt install -y okular
 sudo apt install -y vlc
 sudo apt install -y xchm
 sudo apt install -y git-cola
-sudo apt install -y gnome-shell-pomodoro
+sudo apt install -y terminator
 sudo apt install -y dukto
 sudo apt install -y nodejs
 sudo apt install -y gcc
