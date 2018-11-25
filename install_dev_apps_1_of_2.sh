@@ -17,8 +17,8 @@ sudo apt upgrade
 echo "INSTALL APPS"
 sudo apt install -y apt-transport-https
 sudo apt update
-sudo apt install -y install code
-sudo apt install -y install yarn
+sudo apt install -y code
+sudo apt install -y yarn
 sudo apt install -y chromium-browser
 sudo apt install -y firefox
 sudo apt install -y deluge
