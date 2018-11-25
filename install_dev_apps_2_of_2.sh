@@ -25,7 +25,7 @@ gem install rsense
 gem install rails
 
 echo "INSTALL FONTS"
-cp ./installation/Inconsolata.otf ~/.fonts/Inconsolata.otf
+cp ./files/Inconsolata.otf ~/.fonts/Inconsolata.otf
 wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
 wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
 mkdir ~/.fonts/
