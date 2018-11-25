@@ -1,6 +1,8 @@
 #!/bin/bash
 # chmod +x <fileName>
 
+sudo apt install -y curl
+
 echo "ADDING REPOSITORIES"
 for f in  ppa:linuxgndu/sqlitebrowser ppa:obsproject/obs-studio ; do sudo add-apt-repository $f; done
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
