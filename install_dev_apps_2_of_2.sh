@@ -8,8 +8,10 @@ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor 
 
 echo "INSTALL RUBY"
 rbenv install 2.5.3 --verbose
+rbenv global 2.5.3
 
 echo "INSTALLING GEMS"
+gem install bundler
 gem install fastri
 gem install rcodetools
 gem install reek
