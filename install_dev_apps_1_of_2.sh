@@ -25,7 +25,6 @@ sudo apt install -y chromium-browser
 sudo apt install -y firefox
 sudo apt install -y deluge
 sudo apt install -y net-tools
-sudo apt install -y curl
 sudo apt install -y npm
 sudo apt install -y okular
 sudo apt install -y vlc
